@@ -4,11 +4,19 @@
 
 .mticons{
     margin-left: -10vh;
-    margin-top: 10vh !important;
+    margin-top: 10px !important;
 }
 
 .plink{
     text-align: center;
     text-decoration: none !important;
     color: white;
+}
+
+@media only screen  and (max-width:600px) {
+
+    .mticons{
+        margin-left: auto;
+    }
+    
 }

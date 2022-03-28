@@ -14,7 +14,7 @@ export default function Home() {
         <div className="col-md-2">
           <Oliver />
         </div>
-        <div className="col-md-6 mt-icons">
+        <div className="col mt-icons">
           <IconsSection />
         </div>
       </div>

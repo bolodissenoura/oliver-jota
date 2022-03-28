@@ -1,8 +1,17 @@
 .coin{
     position: absolute !important;
     top: 0 !important;
-    display: flex !important;
+    display: flex ;
     z-index: 99 !important;
     margin-top: 14px;
     margin-left: 42px;
+}
+
+
+@media only screen  and (max-width:600px) {
+
+    .coin{
+        display: none !important;
+    }
+    
 }

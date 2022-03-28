@@ -2,3 +2,12 @@
     z-index: 1 !important;
     position: relative !important;
 }
+
+
+@media only screen  and (max-width:600px) {
+
+    .lateral{
+        display: none;
+    }
+    
+}
