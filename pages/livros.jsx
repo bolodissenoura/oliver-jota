@@ -1,7 +1,7 @@
-import { GoldenWave, Coin, Oliver, IconsSection } from '../components/index'
+import { GoldenWave, Coin, Oliver, MeusLivros } from '../components/index'
 import styles from '../styles/Home.module.scss'
 
-export default function Home() {
+export default function Livros() {
   return (
     <div className={styles.container}>
       <div className="row">
@@ -13,7 +13,7 @@ export default function Home() {
           <Oliver />
         </div>
         <div className="col-md-6 mt-icons">
-          <IconsSection />
+          <MeusLivros />
         </div>
       </div>
     </div>

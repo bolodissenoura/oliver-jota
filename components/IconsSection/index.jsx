@@ -41,7 +41,7 @@ export default function IconsSection() {
                         </a>
                     </div>
                     <div className="col m-1 m-md-0">
-                        <a href="">
+                        <a href="/livros">
                             <Image
                                 src="/icons/livros.png"
                                 alt="Icone"
@@ -102,7 +102,7 @@ export default function IconsSection() {
                 </div>
                 <div className="row g-0">
                     <div className="col">
-                        <a href="">
+                        <a href="https://www.instagram.com/jotaoliveroficial/" target="_blank">
                             <Image
                                 src="/icons/insta-logo.png"
                                 alt="Icone"
