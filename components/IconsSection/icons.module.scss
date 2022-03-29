@@ -1,23 +1,37 @@
-.section{
-    z-index: 1;
-}
-
-.mticons{
-    margin-left: -10vh;
-    width: 600px;
+.mticons {
+    max-width: 497px;
     margin-top: 10vh !important;
-}
-
-.plink{
-    text-align: center;
-    text-decoration: none !important;
-    color: white;
-}
-
-@media only screen  and (max-width:600px) {
-
-    .mticons{
-        margin-left: auto;
+    p {
+        padding-right: 20px;
     }
-    
+    a{
+        text-decoration: none !important;
+        
+    }
+}
+
+.plink {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.psocial {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+
+@media (max-width: 600px) {
+    .mticons {
+        margin-left: 0px;
+        padding: 40px;
+    }
+    .psocial {
+        font-size: 5px;
+    }
+    .plink {
+        font-size: 10px;
+    }
 }

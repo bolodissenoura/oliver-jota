@@ -6,7 +6,7 @@ export default function IconsSection() {
     return (
         <>
             <div className={styles.mticons}>
-                <div className="row">
+                <div className="row g-0">
                     <div className="col">
                         <a href="">
                             <Image
@@ -51,10 +51,8 @@ export default function IconsSection() {
                             <p className={styles.plink}>Livros</p>
                         </a>
                     </div>
-
-
                 </div>
-                <div className="row">
+                <div className="row g-0">
                     <div className="col">
                         <a href="">
                             <Image
@@ -102,84 +100,90 @@ export default function IconsSection() {
 
 
                 </div>
-                <div className="row">
-
-                    <div className="col">
+                <div className="row g-0">
+                    <div className="col ">
                         <a href="">
                             <Image
                                 src="/icons/insta-logo.png"
                                 alt="Icone"
-                                width={65}
-                                height={65}
+                                width={55}
+                                height={55}
                             />
-                            <p className={styles.plink}>Instagram</p>
                         </a>
+                        <p className={styles.psocial}>Instagram</p>
+
                     </div>
-                    <div className="col">
+                    <div className="col ">
                         <a href="">
                             <Image
                                 src="/icons/tiktok.png"
                                 alt="Icone"
-                                width={65}
-                                height={65}
+                                width={55}
+                                height={55}
                             />
-                            <p className={styles.plink}>TikTok</p>
                         </a>
+                        <p className={styles.psocial}>TikTok</p>
+
                     </div>
-                    <div className="col">
+                    <div className="col ">
                         <a href="">
                             <Image
                                 src="/icons/kawai.png"
                                 alt="Icone"
-                                width={65}
-                                height={65}
+                                width={55}
+                                height={55}
                             />
-                            <p className={styles.plink}>Kawai</p>
                         </a>
+                        <p className={styles.psocial}>Kawai</p>
+
                     </div>
-                    <div className="col">
+                    <div className="col ">
                         <a href="">
                             <Image
                                 src="/icons/facebook.png"
                                 alt="Icone"
-                                width={65}
-                                height={65}
+                                width={55}
+                                height={55}
                             />
-                            <p className={styles.plink}>Facebook</p>
                         </a>
+                        <p className={styles.psocial}>Facebook</p>
+
                     </div>
-                    <div className="col">
+                    <div className="col ">
                         <a href="">
                             <Image
                                 src="/icons/email.png"
                                 alt="Icone"
-                                width={65}
-                                height={65}
+                                width={55}
+                                height={55}
                             />
-                            <p className={styles.plink}>Email</p>
                         </a>
+                        <p className={styles.psocial}>Email</p>
+
                     </div>
-                    <div className="col">
+                    <div className="col ">
                         <a href="">
                             <Image
                                 src="/icons/zap.png"
                                 alt="Icone"
-                                width={65}
-                                height={65}
+                                width={55}
+                                height={55}
                             />
-                            <p className={styles.plink}>Whatsapp</p>
+
                         </a>
+                        <p className={styles.psocial}>Whatsapp</p>
                     </div>
-                    <div className="col">
+                    <div className="col ">
                         <a href="">
                             <Image
                                 src="/icons/telegram.png"
                                 alt="Icone"
-                                width={65}
-                                height={65}
+                                width={55}
+                                height={55}
                             />
-                            <p className={styles.plink}>Telegram</p>
+
                         </a>
+                        <p className={styles.psocial}>Telegram</p>
                     </div>
                 </div>
             </div>
