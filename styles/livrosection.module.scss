@@ -1,0 +1,138 @@
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container7,
+.container8 {
+    height: 100vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position-y: -15vh;
+    background-repeat: no-repeat;
+    h2 {
+        color: rgb(255, 192, 74);
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+
+.container1 {
+    background-image: url("../public/background/wppcolor1.png");
+}
+// .container2{background-image: url("../public/background/wppcolor2.png");}
+// .container3{background-image: url("../public/background/wppcolor3.png");}
+// .container4{background-image: url("../public/background/wppcolor4.png");}
+// .container5{background-image: url("../public/background/wppcolor5.png");}
+// .container6{background-image: url("../public/background/wppcolor6.png");}
+// .container7{background-image: url("../public/background/wppcolor7.png");}
+// .container8{background-image: url("../public/background/wppcolor8.png");}
+
+.sipnose {
+    width: 50vh;
+    height: 80vh;
+    background-color: #10389e;
+    margin-left: 10vh;
+    overflow-y: scroll;
+}
+
+.img {
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+.text {
+    color: white;
+    padding: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.capitulos {
+    margin-left: -40px;
+    height: 140px;
+    width: 116px;
+    background-color: black;
+}
+
+.sectionpagamento {
+    margin-left: -40px;
+    margin-top: -300px;
+    height: 250px;
+    width: 66%;
+}
+
+.ilustrativo {
+    height: 250px;
+    width: 96%;
+    background-color: red;
+}
+
+.pix {
+    height: 250px;
+    width: 96%;
+    background-color: green;
+}
+
+@media only screen and (max-width: 700px) {
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5,
+    .container6,
+    .container7,
+    .container7,
+    .container8 {
+        height: 100vh;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        background-size: cover;
+        background-position-y: 0vh !important;
+        background-repeat: no-repeat;
+        h2 {
+            color: rgb(255, 192, 74);
+            font-size: 25px;
+            padding-top: 10px;
+            font-weight: 700;
+            display: none;
+        }
+    }
+
+    .sipnose {
+        width: 40vh;
+        margin-left: 25px !important;
+        height: 80vh;
+        background-color: #10389e;
+        overflow-y: scroll;
+    }
+
+    .capitulos {
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 100px;
+        width: 116px;
+        background-color: black;
+    }
+    .sectionpagamento {
+        margin-left: 20px;
+        margin-top: 5vh;
+        height: 250px;
+        width: 96%;
+    }
+
+    .ilustrativo {
+        height: 250px;
+        width: 96%;
+        background-color: red;
+    }
+
+    .pix {
+        height: 250px;
+        width: 96%;
+        background-color: green;
+    }
+}

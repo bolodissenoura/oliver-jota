@@ -8,7 +8,7 @@ export default function MeusLivros() {
             <div className={styles.mticons}>
                 <div className="row g-0">
                     <div className="col m-2 m-md-3">
-                        <a href="">
+                        <a href="/atalhos-do-sucesso">
                             <Image
                                 src="/livros/1l.png"
                                 alt="Icone"
