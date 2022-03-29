@@ -1,12 +1,11 @@
 .mticons {
     max-width: 497px;
-    margin-top: 10vh !important;
+    margin-top: 10vh;
     p {
         padding-right: 20px;
     }
-    a{
+    a {
         text-decoration: none !important;
-        
     }
 }
 
@@ -22,11 +21,14 @@
     font-size: 12px;
 }
 
-
 @media (max-width: 600px) {
     .mticons {
+        margin-top: 0vh !important;
         margin-left: 0px;
         padding: 40px;
+        p {
+            padding-right: 0px !important;
+        }
     }
     .psocial {
         font-size: 5px;

@@ -1,11 +1,22 @@
 .container {
   height: 100vh;
   overflow: hidden;
-  background-image: url("../public/background/wpp.jpg");
+  background-image: url("../public/background/bkg.png");
   background-size: cover;
+  background-position-y: -15vh;
   background-repeat: no-repeat;
 }
 
-.row{
-  padding-right: 0px !important;
+@media only screen  and (max-width:700px) {
+
+  .container {
+    height: 100vh;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    background-image: url("../public/background/bkg-mobile.png");
+    background-size: cover;
+    background-position-y: 0vh !important;
+    background-repeat: no-repeat;
+  }
+  
 }

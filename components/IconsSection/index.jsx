@@ -7,7 +7,7 @@ export default function IconsSection() {
         <>
             <div className={styles.mticons}>
                 <div className="row g-0">
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/jota-oliver.png"
@@ -18,7 +18,7 @@ export default function IconsSection() {
                             <p className={styles.plink}>Jota Oliver</p>
                         </a>
                     </div>
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/grupo-livro.png"
@@ -29,7 +29,7 @@ export default function IconsSection() {
                             <p className={styles.plink}>Grupo Oliver</p>
                         </a>
                     </div>
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/bares.png"
@@ -40,7 +40,7 @@ export default function IconsSection() {
                             <p className={styles.plink}>Bares</p>
                         </a>
                     </div>
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/livros.png"
@@ -53,7 +53,7 @@ export default function IconsSection() {
                     </div>
                 </div>
                 <div className="row g-0">
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/cocomambo.png"
@@ -64,7 +64,7 @@ export default function IconsSection() {
                             <p className={styles.plink}>Cocomambo</p>
                         </a>
                     </div>
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/mentorias.png"
@@ -75,7 +75,7 @@ export default function IconsSection() {
                             <p className={styles.plink}>Mentoria</p>
                         </a>
                     </div>
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/podcasts.png"
@@ -86,7 +86,7 @@ export default function IconsSection() {
                             <p className={styles.plink}>Podcast</p>
                         </a>
                     </div>
-                    <div className="col">
+                    <div className="col m-1 m-md-0">
                         <a href="">
                             <Image
                                 src="/icons/palestras.png"
@@ -101,7 +101,7 @@ export default function IconsSection() {
 
                 </div>
                 <div className="row g-0">
-                    <div className="col ">
+                    <div className="col">
                         <a href="">
                             <Image
                                 src="/icons/insta-logo.png"
@@ -113,7 +113,7 @@ export default function IconsSection() {
                         <p className={styles.psocial}>Instagram</p>
 
                     </div>
-                    <div className="col ">
+                    <div className="col">
                         <a href="">
                             <Image
                                 src="/icons/tiktok.png"
@@ -125,7 +125,7 @@ export default function IconsSection() {
                         <p className={styles.psocial}>TikTok</p>
 
                     </div>
-                    <div className="col ">
+                    <div className="col">
                         <a href="">
                             <Image
                                 src="/icons/kawai.png"
@@ -137,7 +137,7 @@ export default function IconsSection() {
                         <p className={styles.psocial}>Kawai</p>
 
                     </div>
-                    <div className="col ">
+                    <div className="col">
                         <a href="">
                             <Image
                                 src="/icons/facebook.png"
@@ -149,7 +149,7 @@ export default function IconsSection() {
                         <p className={styles.psocial}>Facebook</p>
 
                     </div>
-                    <div className="col ">
+                    <div className="col">
                         <a href="">
                             <Image
                                 src="/icons/email.png"
@@ -161,7 +161,7 @@ export default function IconsSection() {
                         <p className={styles.psocial}>Email</p>
 
                     </div>
-                    <div className="col ">
+                    <div className="col">
                         <a href="">
                             <Image
                                 src="/icons/zap.png"
@@ -173,7 +173,7 @@ export default function IconsSection() {
                         </a>
                         <p className={styles.psocial}>Whatsapp</p>
                     </div>
-                    <div className="col ">
+                    <div className="col">
                         <a href="">
                             <Image
                                 src="/icons/telegram.png"

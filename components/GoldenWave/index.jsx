@@ -9,8 +9,8 @@ export default function GoldenWave() {
         <Image
           src="/background/lateral.png"
           alt="a"
-          width={400}
-          height={700}
+          width={500}
+          height={800}
         />
       </div>
 
