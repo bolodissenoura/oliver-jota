@@ -13,9 +13,10 @@
     background-position-y: -15vh;
     background-repeat: no-repeat;
     h2 {
-        color: rgb(255, 192, 74);
+        color: #f2872e;
         font-size: 25px;
         font-weight: 700;
+        padding-bottom: 100px;
     }
 }
 
@@ -30,17 +31,73 @@
 // .container7{background-image: url("../public/background/wppcolor7.png");}
 // .container8{background-image: url("../public/background/wppcolor8.png");}
 
+// CAPAS DOS LIVROS BACKGROUND
+
+.capa1,
+.capa2,
+.capa3,
+.capa4,
+.capa5 {
+    margin-left: -40px;
+    height: 140px;
+    width: 116px;
+    background-repeat: no-repeat;
+    background-size: 110px;
+}
+
+.capa1 {
+    background-image: url("../public/livros/atalhos/c1.jpg");
+}
+.capa2 {
+    background-image: url("../public/livros/atalhos/c2.jpg");
+}
+.capa3 {
+    background-image: url("../public/livros/atalhos/c3.jpg");
+}
+.capa4 {
+    background-image: url("../public/livros/atalhos/c4.jpg");
+}
+.capa5 {
+    background-image: url("../public/livros/atalhos/c5.jpg");
+}
+
+//PREÇO BKG
+
+.precol1 {
+    height: 250px;
+    width: 96%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../public/livros/atalhos/preco.png");
+}
+
+.precoLivro {
+    width: 100px;
+    height: auto;
+    background-color: #f2872e;
+    position: sticky;
+    top: 390px;
+    left: 680px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: .1em;
+
+    p {
+        color: #fff;
+        font-weight: 700;
+        padding: 6px;
+    }
+}
 .sipnose {
     width: 50vh;
     height: 80vh;
-    background-color: #10389e;
+    background-color: #081a47a2;
     margin-left: 10vh;
     overflow-y: scroll;
 }
 
 .img {
     padding-top: 15px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .text {
@@ -50,13 +107,6 @@
     text-align: center;
 }
 
-.capitulos {
-    margin-left: -40px;
-    height: 140px;
-    width: 116px;
-    background-color: black;
-}
-
 .sectionpagamento {
     margin-left: -40px;
     margin-top: -300px;
@@ -64,16 +114,13 @@
     width: 66%;
 }
 
-.ilustrativo {
-    height: 250px;
-    width: 96%;
-    background-color: red;
-}
-
 .pix {
     height: 250px;
     width: 96%;
-    background-color: green;
+    background-image: url("../public/pix.png");
+    background-size: cover;
+    background-position-y: -5vh;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 700px) {
@@ -93,7 +140,7 @@
         background-position-y: 0vh !important;
         background-repeat: no-repeat;
         h2 {
-            color: rgb(255, 192, 74);
+            color: #f2872e;
             font-size: 25px;
             padding-top: 10px;
             font-weight: 700;
@@ -105,17 +152,21 @@
         width: 40vh;
         margin-left: 25px !important;
         height: 80vh;
-        background-color: #10389e;
+        background-color: #081a47a2;
         overflow-y: scroll;
     }
 
-    .capitulos {
+    .capa1,
+    .capa2,
+    .capa3,
+    .capa4,
+    .capa5 {
         margin-left: 30px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        height: 100px;
+        margin-top: 15px;
+        height: 140px;
         width: 116px;
-        background-color: black;
+        background-repeat: no-repeat;
+        background-size: 110px;
     }
     .sectionpagamento {
         margin-left: 20px;
@@ -127,12 +178,19 @@
     .ilustrativo {
         height: 250px;
         width: 96%;
-        background-color: red;
+        background-color: #081a47a2;
     }
 
     .pix {
         height: 250px;
-        width: 96%;
-        background-color: green;
+        width: 100%;
+        background-image: url("../public/pix.png");
+        background-size: cover;
+        background-position-y: -5vh;
+        background-repeat: no-repeat;
+    }
+    .img {
+        padding-top: 15px;
+        margin-left: 30px;
     }
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from './oliver.module.scss'
+import styles from './caricatura.module.scss'
 
-export default function Oliver() {
+export default function Caricatura() {
     return (
         <>
             <div>
-                <div className={styles.oliver}>
+                <div className={styles.caricatura}>
                    
                 </div>
             </div>

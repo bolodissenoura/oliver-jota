@@ -6,12 +6,14 @@ export default function Coin() {
     return (
         <>
             <div className={styles.coin}>
-                <Image
-                    src="/coin.png"
-                    alt="Imagem de uma Moeda"
-                    width={150}
-                    height={150}
-                />
+                <a href="/construindo">
+                    <Image
+                        src="/coin.png"
+                        alt="Imagem de uma Moeda"
+                        width={150}
+                        height={150}
+                    />
+                </a>
             </div>
         </>
     )

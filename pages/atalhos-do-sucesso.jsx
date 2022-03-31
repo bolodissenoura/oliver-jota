@@ -10,10 +10,10 @@ export default function AtalhosSucesso() {
                     <div className={styles.sipnose}>
                         <div className={styles.img}>
                             <Image
-                                src="/escrita.png"
+                                src="/capas/t2.png"
                                 alt="Titulo Livro"
-                                width={150}
-                                height={100}
+                                width={250}
+                                height={150}
                             />
                         </div>
                         <div className={styles.text}>
@@ -25,27 +25,27 @@ export default function AtalhosSucesso() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className={styles.capitulos}>
+                    <div className={styles.capa1}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={styles.capitulos}>
+                    <div className={styles.capa2}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={styles.capitulos}>
+                    <div className={styles.capa3}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={styles.capitulos}>
+                    <div className={styles.capa4}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={styles.capitulos}>
+                    <div className={styles.capa5}>
 
                     </div>
                 </div>
@@ -54,7 +54,10 @@ export default function AtalhosSucesso() {
                     <div className={styles.sectionpagamento}>
                         <div className="row">
                             <div className="col-md-6">
-                                <div className={styles.ilustrativo}>
+                                <div className={styles.precol1}>
+                                    <div className={styles.precoLivro}>
+                                        <p>R$64,00</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-md-6">
@@ -65,7 +68,7 @@ export default function AtalhosSucesso() {
                         </div>
                     </div>
                     <h2 className='col-md-8'>
-                        Nos dias de hoje é comum escolher entre ter um diploma e um bom emprego, ou ter a possibilidade de se tornar rico cedo.
+                        O livro que conta a história da minha vida. De maneira fácil de entender e te motivar, mostrando com a minha história que tudo é possível !
                     </h2>
                 </div>
 
