@@ -8,7 +8,7 @@ export default function MeusLivros() {
             <div className={styles.mticons}>
                 <div className="row g-0">
                     <div className="col m-2 m-md-3">
-                        <a href="/atalhos-do-sucesso">
+                        <a href="/livro1">
                             <Image
                                 src="/livros/1l.png"
                                 alt="Icone"
@@ -18,7 +18,7 @@ export default function MeusLivros() {
                         </a>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="">
+                        <a href="/livro2">
                             <Image
                                 src="/livros/2l.png"
                                 alt="Icone"
@@ -28,7 +28,7 @@ export default function MeusLivros() {
                         </a>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="">
+                        <a href="/livro3">
                             <Image
                                 src="/livros/3l.png"
                                 alt="Icone"
@@ -38,7 +38,7 @@ export default function MeusLivros() {
                         </a>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="/livros">
+                        <a href="/livro4">
                             <Image
                                 src="/livros/4l.png"
                                 alt="Icone"
@@ -50,7 +50,7 @@ export default function MeusLivros() {
                 </div>
                 <div className="row g-0">
                     <div className="col m-2 m-md-3">
-                        <a href="">
+                        <a href="/livro5">
                             <Image
                                 src="/livros/5l.png"
                                 alt="Icone"

@@ -8,7 +8,7 @@ export default function IconsSection() {
             <div className={styles.mticons}>
                 <div className="row g-0">
                     <div className="col m-1 m-md-0">
-                        <a href="">
+                        <a href="/sobre">
                             <Image
                                 src="/icons/jota-oliver.png"
                                 alt="Icone"
@@ -19,7 +19,7 @@ export default function IconsSection() {
                         </a>
                     </div>
                     <div className="col m-1 m-md-0">
-                        <a href="">
+                        <a href="/construindo">
                             <Image
                                 src="/icons/grupo-livro.png"
                                 alt="Icone"
@@ -30,7 +30,7 @@ export default function IconsSection() {
                         </a>
                     </div>
                     <div className="col m-1 m-md-0">
-                        <a href="">
+                        <a href="/construindo">
                             <Image
                                 src="/icons/bares.png"
                                 alt="Icone"
@@ -54,7 +54,7 @@ export default function IconsSection() {
                 </div>
                 <div className="row g-0">
                     <div className="col m-1 m-md-0">
-                        <a href="">
+                        <a href="/construcao">
                             <Image
                                 src="/icons/cocomambo.png"
                                 alt="Icone"

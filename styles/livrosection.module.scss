@@ -13,7 +13,6 @@
     background-position-y: -15vh;
     background-repeat: no-repeat;
     h2 {
-        color: #f2872e;
         font-size: 25px;
         font-weight: 700;
         padding-bottom: 100px;
@@ -23,21 +22,21 @@
 .container1 {
     background-image: url("../public/background/wppcolor1.png");
 }
-// .container2{background-image: url("../public/background/wppcolor2.png");}
+.container2 {
+    background-image: url("../public/background/wppcolor2.png");
+}
 // .container3{background-image: url("../public/background/wppcolor3.png");}
 // .container4{background-image: url("../public/background/wppcolor4.png");}
-// .container5{background-image: url("../public/background/wppcolor5.png");}
+.container5 {
+    background-image: url("../public/background/wppcolor5.png");
+}
 // .container6{background-image: url("../public/background/wppcolor6.png");}
 // .container7{background-image: url("../public/background/wppcolor7.png");}
 // .container8{background-image: url("../public/background/wppcolor8.png");}
 
 // CAPAS DOS LIVROS BACKGROUND
 
-.capa1,
-.capa2,
-.capa3,
-.capa4,
-.capa5 {
+.capa {
     margin-left: -40px;
     height: 140px;
     width: 116px;
@@ -45,41 +44,123 @@
     background-size: 110px;
 }
 
-.capa1 {
+.capa1livro1 {
     background-image: url("../public/livros/atalhos/c1.jpg");
 }
-.capa2 {
+.capa2livro1 {
     background-image: url("../public/livros/atalhos/c2.jpg");
 }
-.capa3 {
+.capa3livro1 {
     background-image: url("../public/livros/atalhos/c3.jpg");
 }
-.capa4 {
+.capa4livro1 {
     background-image: url("../public/livros/atalhos/c4.jpg");
 }
-.capa5 {
+.capa5livro1 {
     background-image: url("../public/livros/atalhos/c5.jpg");
+}
+
+.capa1livro2 {
+    background-image: url("../public/livros/tempo/c1.jpg");
+}
+.capa2livro2 {
+    background-image: url("../public/livros/tempo/c2.jpg");
+}
+.capa3livro2 {
+    background-image: url("../public/livros/tempo/c3.jpg");
+}
+.capa4livro2 {
+    background-image: url("../public/livros/tempo/c4.jpg");
+}
+.capa5livro2 {
+    background-image: url("../public/livros/tempo/c5.jpg");
+}
+
+.capa1livro4 {
+    background-image: url("../public/livros/universidade-internet/c1.jpg");
+}
+.capa2livro4 {
+    background-image: url("../public/livros/universidade-internet/c2.jpg");
+}
+.capa3livro4 {
+    background-image: url("../public/livros/universidade-internet/c3.jpg");
+}
+.capa4livro4 {
+    background-image: url("../public/livros/universidade-internet/c4.jpg");
+}
+.capa5livro4 {
+    background-image: url("../public/livros/universidade-internet/c5.jpg");
+}
+
+.capa1livro5 {
+    background-image: url("../public/livros/livro5/c1.png");
+}
+.capa2livro5 {
+    background-image: url("../public/livros/livro5/c2.png");
+}
+.capa3livro5 {
+    background-image: url("../public/livros/livro5/c3.png");
+}
+.capa4livro5 {
+    background-image: url("../public/livros/livro5/c4.png");
+}
+.capa5livro5 {
+    background-image: url("../public/livros/livro5/c5.png");
 }
 
 //PREÇO BKG
 
-.precol1 {
+.precoGeral {
     height: 250px;
     width: 96%;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.precol1 {
     background-image: url("../public/livros/atalhos/preco.png");
+}
+.precol2 {
+    background-image: url("../public/livros/tempo/preco.png");
+}
+.precol3 {
+    background-image: url("../public/livros/tempo/preco.png");
+}
+.precol4 {
+    background-image: url("../public/livros/universidade-internet/preco.png");
+}
+.precol5 {
+    background-image: url("../public/livros/livro5/preco.png");
+}
+
+.bgLivroum {
+    background-color: #f2872e;
+}
+.colorLivroum {
+    color: #f2872e;
+}
+.bglivrodois {
+    background-color: #f2f22e88;
+}
+.colorlivrodois {
+    color: #f2f22e;
+}
+.bgLivrocinco {
+    background-color: #233d15;
+}
+.colorLivrocinco {
+    h2 {
+        color: #eb3038 !important;
+    }
 }
 
 .precoLivro {
     width: 100px;
     height: auto;
-    background-color: #f2872e;
     position: sticky;
     top: 390px;
     left: 680px;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-    border-radius: .1em;
+    border-radius: 0.1em;
 
     p {
         color: #fff;
@@ -90,9 +171,23 @@
 .sipnose {
     width: 50vh;
     height: 80vh;
-    background-color: #081a47a2;
     margin-left: 10vh;
     overflow-y: scroll;
+}
+.sipnose1 {
+    background-color: #081a47a2;
+}
+.sipnose2 {
+    background-color: #474747a2;
+}
+.sipnose3 {
+    background-color: #081a47a2;
+}
+.sipnose4 {
+    background-color: #081a47a2;
+}
+.sipnose5 {
+    background-color: #081a47a2;
 }
 
 .img {
@@ -140,7 +235,6 @@
         background-position-y: 0vh !important;
         background-repeat: no-repeat;
         h2 {
-            color: #f2872e;
             font-size: 25px;
             padding-top: 10px;
             font-weight: 700;
@@ -156,11 +250,7 @@
         overflow-y: scroll;
     }
 
-    .capa1,
-    .capa2,
-    .capa3,
-    .capa4,
-    .capa5 {
+    .capa {
         margin-left: 30px;
         margin-top: 15px;
         height: 140px;
