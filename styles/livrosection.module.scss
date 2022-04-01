@@ -30,8 +30,10 @@
 .container5 {
     background-image: url("../public/background/wppcolor5.png");
 }
-// .container6{background-image: url("../public/background/wppcolor6.png");}
-// .container7{background-image: url("../public/background/wppcolor7.png");}
+.container6 {
+    background-image: url("../public/background/wppcolor6.png");
+}
+.container7{background-image: url("../public/background/wppcolor7.png");}
 // .container8{background-image: url("../public/background/wppcolor8.png");}
 
 // CAPAS DOS LIVROS BACKGROUND
@@ -108,6 +110,54 @@
     background-image: url("../public/livros/livro5/c5.png");
 }
 
+.capa1livro6 {
+    background-image: url("../public/livros/livro6/c1.png");
+}
+.capa2livro6 {
+    background-image: url("../public/livros/livro6/c2.png");
+}
+.capa3livro6 {
+    background-image: url("../public/livros/livro6/c3.png");
+}
+.capa4livro6 {
+    background-image: url("../public/livros/livro6/c4.png");
+}
+.capa5livro6 {
+    background-image: url("../public/livros/livro6/c5.png");
+}
+
+.capa1livro7 {
+    background-image: url("../public/livros/livro7/c1.png");
+}
+.capa2livro7 {
+    background-image: url("../public/livros/livro7/c2.png");
+}
+.capa3livro7 {
+    background-image: url("../public/livros/livro7/c3.png");
+}
+.capa4livro7 {
+    background-image: url("../public/livros/livro7/c4.png");
+}
+.capa5livro7 {
+    background-image: url("../public/livros/livro7/c5.png");
+}
+
+// .capa1livro8 {
+//     background-image: url("../public/livros/livro8/c1.png");
+// }
+// .capa2livro8 {
+//     background-image: url("../public/livros/livro8/c2.png");
+// }
+// .capa3livro8 {
+//     background-image: url("../public/livros/livro8/c3.png");
+// }
+// .capa4livro8 {
+//     background-image: url("../public/livros/livro8/c4.png");
+// }
+// .capa5livro8 {
+//     background-image: url("../public/livros/livro8/c5.png");
+// }
+
 //PREÇO BKG
 
 .precoGeral {
@@ -131,26 +181,45 @@
 .precol5 {
     background-image: url("../public/livros/livro5/preco.png");
 }
+.precol6 {
+    background-image: url("../public/livros/livro6/preco.png");
+}
+.precol7 {
+    background-image: url("../public/livros/livro7/preco.png");
+}
 
 .bgLivroum {
     background-color: #f2872e;
 }
 .colorLivroum {
-    color: #f2872e;
+    color: #f2872e !important;
 }
 .bglivrodois {
     background-color: #f2f22e88;
 }
-.colorlivrodois {
+.colorLivrodois {
+    color: #f2f22e;
+}
+.bgLivrotres {
+    background-color: #f2f22e88;
+}
+.colorLivrotres {
     color: #f2f22e;
 }
 .bgLivrocinco {
     background-color: #233d15;
 }
 .colorLivrocinco {
-    h2 {
-        color: #eb3038 !important;
-    }
+    color: #eb3038 !important;
+}
+.bgLivroseis {
+    background-color: #eb3038;
+}
+.bgLivrosete {
+    background-color: #276A7C;
+}
+.colorLivrosete {
+    color: #e97d1f !important;
 }
 
 .precoLivro {
@@ -187,7 +256,13 @@
     background-color: #081a47a2;
 }
 .sipnose5 {
-    background-color: #081a47a2;
+    background-color: #233d1582;
+}
+.sipnose6 {
+    background-color: #5c1b1b82;
+}
+.sipnose7 {
+    background-color: #e97d1f81;
 }
 
 .img {
@@ -243,10 +318,9 @@
     }
 
     .sipnose {
-        width: 40vh;
+        width: 87%;
         margin-left: 25px !important;
         height: 80vh;
-        background-color: #081a47a2;
         overflow-y: scroll;
     }
 
@@ -268,7 +342,6 @@
     .ilustrativo {
         height: 250px;
         width: 96%;
-        background-color: #081a47a2;
     }
 
     .pix {

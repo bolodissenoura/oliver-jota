@@ -4,13 +4,13 @@ import styles from '../styles/livrosection.module.scss'
 
 export default function AprendaSerRico() {
     return (
-        <div className={styles.container5}>
+        <div className={styles.container7}>
             <div className="row mt-5">
                 <div className="col-md-4">
-                    <div className={`${styles.sipnose} ${styles.sipnose5}`}>
+                    <div className={`${styles.sipnose} ${styles.sipnose7}`}>
                         <div className={styles.img}>
                             <Image
-                                src="/capas/t5.png"
+                                src="/capas/t7.png"
                                 alt="Titulo Livro"
                                 width={250}
                                 height={150}
@@ -25,27 +25,27 @@ export default function AprendaSerRico() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa1livro5}`}>
+                    <div className={`${styles.capa} ${styles.capa1livro7}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa2livro5}`}>
+                    <div className={`${styles.capa} ${styles.capa2livro7}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa3livro5}`}>
+                    <div className={`${styles.capa} ${styles.capa3livro7}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa4livro5}`}>
+                    <div className={`${styles.capa} ${styles.capa4livro7}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa5livro5}`}>
+                    <div className={`${styles.capa} ${styles.capa5livro7}`}>
 
                     </div>
                 </div>
@@ -54,8 +54,8 @@ export default function AprendaSerRico() {
                     <div className={styles.sectionpagamento}>
                         <div className="row">
                             <div className="col-md-6">
-                                <div className={`${styles.precoGeral} ${styles.precol5}`}>
-                                    <div className={`${styles.precoLivro} ${styles.bgLivrocinco}`}>
+                                <div className={`${styles.precoGeral} ${styles.precol7}`}>
+                                    <div className={`${styles.precoLivro} ${styles.bgLivrosete}`}>
                                         <p>R$65,00</p>
                                     </div>
                                 </div>
@@ -68,9 +68,9 @@ export default function AprendaSerRico() {
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <div className={styles.colorLivrocinco}>
+                        <div className={styles.colorLivrosete}>
                             <h2 >
-                                Neste livro você vai aprender a se desapegar dos trocados <br /> para poder ver o milhões.
+                                Este livro eu escrevi para provar as pessoas que se somos capazes de enganar 10 trilhões de neurônios em nosso corpo para gozar, somos capazes de qualquer coisa na vida.
                             </h2>
                         </div>
                     </div>

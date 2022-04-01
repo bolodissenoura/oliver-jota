@@ -10,7 +10,7 @@ export default function AtalhosSucesso() {
                     <div className={`${styles.sipnose} ${styles.sipnose2}`}>
                         <div className={styles.img}>
                             <Image
-                                src="/capas/t1.png"
+                                src="/capas/t2.png"
                                 alt="Titulo Livro"
                                 width={250}
                                 height={150}
@@ -68,7 +68,7 @@ export default function AtalhosSucesso() {
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <h2 className={`${styles.colorTempo}`}>
+                        <h2 className={`${styles.colorLivrodois}`}>
                             Meu livro preferido. O qual chorei quando escrevi e choro quando leio. Desafio você a ler e não chorar.
                         </h2>
                     </div>

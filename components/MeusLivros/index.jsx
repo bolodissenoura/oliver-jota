@@ -60,7 +60,7 @@ export default function MeusLivros() {
                         </a>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="">
+                        <a href="/livro6">
                             <Image
                                 src="/livros/6l.png"
                                 alt="Icone"
@@ -70,7 +70,7 @@ export default function MeusLivros() {
                         </a>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="">
+                        <a href="/livro7">
                             <Image
                                 src="/livros/7l.png"
                                 alt="Icone"
@@ -80,7 +80,7 @@ export default function MeusLivros() {
                         </a>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="">
+                        <a href="/livro8">
                             <Image
                                 src="/livros/8l.png"
                                 alt="Icone"

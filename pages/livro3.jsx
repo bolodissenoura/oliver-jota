@@ -10,7 +10,7 @@ export default function AprendaSerRico() {
                     <div className={`${styles.sipnose} ${styles.sipnose2}`}>
                         <div className={styles.img}>
                             <Image
-                                src="/capas/t5.png"
+                                src="/capas/t3.png"
                                 alt="Titulo Livro"
                                 width={250}
                                 height={150}
@@ -55,7 +55,7 @@ export default function AprendaSerRico() {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className={`${styles.precoGeral} ${styles.precol3}`}>
-                                    <div className={`${styles.precoLivro} ${styles.bgTempo}`}>
+                                    <div className={`${styles.precoLivro} ${styles.bgLivrotres}`}>
                                         <p>R$65,00</p>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ export default function AprendaSerRico() {
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <h2 className={`${styles.colorTempo}`}>
+                        <h2 className={`${styles.colorLivrotres}`}>
                             Meu livro preferido. O qual chorei quando escrevi e choro quando leio. Desafio você a ler e não chorar.
                         </h2>
                     </div>

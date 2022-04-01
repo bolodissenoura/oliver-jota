@@ -10,7 +10,7 @@ export default function UniversidadeInternet() {
                     <div className={`${styles.sipnose} ${styles.sipnose2}`}>
                         <div className={styles.img}>
                             <Image
-                                src="/capas/t7.png"
+                                src="/capas/t4.png"
                                 alt="Titulo Livro"
                                 width={250}
                                 height={150}
