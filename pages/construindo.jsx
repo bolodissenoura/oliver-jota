@@ -1,5 +1,6 @@
 import { Caricatura } from '../components/index'
 import styles from '../styles/construcao.module.scss'
+import Link from 'next/link'
 
 export default function Construindo() {
   return (
@@ -13,7 +14,8 @@ export default function Construindo() {
         <div className="col-md-4 text-center">
           <div className={styles.textocontrucao}>
             <h1>Página ainda em construção🚧</h1>
-            <a href="/"> Clique aqui para voltar </a>
+            <Link href="/"><a > Clique aqui para voltar </a></Link>
+
           </div>
         </div>
       </div>

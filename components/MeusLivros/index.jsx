@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from './meuslivros.module.scss'
+import Link from 'next/link'
 
 export default function MeusLivros() {
     return (
@@ -8,86 +9,102 @@ export default function MeusLivros() {
             <div className={styles.mticons}>
                 <div className="row g-0">
                     <div className="col m-2 m-md-3">
-                        <a href="/livro1">
-                            <Image
-                                src="/livros/1l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro1">
+                            <a>
+                                <Image
+                                    src="/livros/1l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="/livro2">
-                            <Image
-                                src="/livros/2l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro2">
+                            <a>
+                                <Image
+                                    src="/livros/2l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="/livro3">
-                            <Image
-                                src="/livros/3l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro3">
+                            <a>
+                                <Image
+                                    src="/livros/3l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="/livro4">
-                            <Image
-                                src="/livros/4l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro4">
+                            <a>
+                                <Image
+                                    src="/livros/4l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="row g-0">
                     <div className="col m-2 m-md-3">
-                        <a href="/livro5">
-                            <Image
-                                src="/livros/5l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro5">
+                            <a>
+                                <Image
+                                    src="/livros/5l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="/livro6">
-                            <Image
-                                src="/livros/6l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro6">
+                            <a>
+                                <Image
+                                    src="/livros/6l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="/livro7">
-                            <Image
-                                src="/livros/7l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro7">
+                            <a>
+                                <Image
+                                    src="/livros/7l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                     <div className="col m-2 m-md-3">
-                        <a href="/livro8">
-                            <Image
-                                src="/livros/8l.png"
-                                alt="Icone"
-                                width={150}
-                                height={200}
-                            />
-                        </a>
+                        <Link href="/livro8">
+                            <a>
+                                <Image
+                                    src="/livros/8l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>

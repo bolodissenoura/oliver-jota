@@ -14,12 +14,12 @@ export default function SobreOliver() {
                         </p>
                     </div>
                     <div className="col-md-4">
-                        <a href="">
+                        <a>
                             <div className={styles.buttonPlay}></div>
                         </a>
                     </div>
                     <div className="col-md-4">
-                        <a href="">
+                        <a>
                             <div className={styles.buttonFotos}></div>
                         </a>
                     </div>
