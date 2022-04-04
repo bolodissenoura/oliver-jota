@@ -55,7 +55,7 @@ export default function UniversidadeInternet() {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className={`${styles.precoGeral} ${styles.precol4}`}>
-                                    <div className={`${styles.precoLivro} ${styles.bgTempo}`}>
+                                    <div className={`${styles.precoLivro} ${styles.bgLivroquatro}`}>
                                         <p>R$65,00</p>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ export default function UniversidadeInternet() {
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <h2 className={`${styles.colorTempo}`}>
+                        <h2 className={`${styles.colorLivroquatro}`}>
                             Meu livro preferido. O qual chorei quando escrevi e choro quando leio. Desafio você a ler e não chorar.
                         </h2>
                     </div>

@@ -55,7 +55,7 @@ export default function AtalhosSucesso() {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className={`${styles.precoGeral} ${styles.precol1}`}>
-                                    <div className={`${styles.precoLivro} ${styles.bgAtalhos}`}>
+                                    <div className={`${styles.precoLivro} ${styles.bgLivroum}`}>
                                         <p>R$65,00</p>
                                     </div>
                                 </div>

@@ -194,7 +194,7 @@
 .colorLivroum {
     color: #f2872e !important;
 }
-.bglivrodois {
+.bgLivrodois {
     background-color: #f2f22e88;
 }
 .colorLivrodois {
@@ -205,6 +205,12 @@
 }
 .colorLivrotres {
     color: #f2f22e;
+}
+.bgLivroquatro {
+    background-color: #3a3a3a;
+}
+.colorLivroquatro {
+    color: #d37c3d !important;
 }
 .bgLivrocinco {
     background-color: #233d15;
@@ -349,7 +355,7 @@
         width: 100%;
         background-image: url("../public/pix.png");
         background-size: cover;
-        background-position-y: -5vh;
+        background-position-y: 0vh;
         background-repeat: no-repeat;
     }
     .img {
