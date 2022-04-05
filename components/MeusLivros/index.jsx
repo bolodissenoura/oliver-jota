@@ -15,7 +15,7 @@ export default function MeusLivros() {
                                     src="/livros/1l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>
@@ -27,7 +27,7 @@ export default function MeusLivros() {
                                     src="/livros/2l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>
@@ -39,7 +39,7 @@ export default function MeusLivros() {
                                     src="/livros/3l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>
@@ -51,7 +51,7 @@ export default function MeusLivros() {
                                     src="/livros/4l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>
@@ -63,7 +63,7 @@ export default function MeusLivros() {
                                     src="/livros/5l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>
@@ -83,7 +83,7 @@ export default function MeusLivros() {
                                     src="/livros/6l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>
@@ -95,7 +95,7 @@ export default function MeusLivros() {
                                     src="/livros/7l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={230}
                                 />
                             </a>
                         </Link>
@@ -107,7 +107,7 @@ export default function MeusLivros() {
                                     src="/livros/8l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>
@@ -119,7 +119,7 @@ export default function MeusLivros() {
                                     src="/livros/9l.png"
                                     alt="Icone"
                                     width={150}
-                                    height={200}
+                                    height={250}
                                 />
                             </a>
                         </Link>

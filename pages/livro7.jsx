@@ -7,21 +7,8 @@ export default function AprendaSerRico() {
         <div className={styles.container7}>
             <div className="row mt-5">
                 <div className="col-md-4">
-                    <div className={`${styles.sipnose} ${styles.sipnose7}`}>
-                        <div className={styles.img}>
-                            <Image
-                                src="/capas/t7.png"
-                                alt="Titulo Livro"
-                                width={250}
-                                height={150}
-                            />
-                        </div>
-                        <div className={styles.text}>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam natus repellendus dolore rerum expedita reprehenderit qui sapiente laborum ratione at, vel adipisci dolorum ullam, autem recusandae, ducimus aspernatur perspiciatis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam natus repellendus dolore rerum expedita reprehenderit qui sapiente laborum ratione at, vel adipisci dolorum ullam, autem recusandae, ducimus aspernatur perspiciatis.
-                            </p>
-                        </div>
+                    <div className={`${styles.sipnoseImg} ${styles.sipnose7}`}>
+
                     </div>
                 </div>
                 <div className="col">

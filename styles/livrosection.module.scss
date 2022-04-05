@@ -26,15 +26,21 @@
     background-image: url("../public/background/wppcolor2.png");
 }
 // .container3{background-image: url("../public/background/wppcolor3.png");}
-// .container4{background-image: url("../public/background/wppcolor4.png");}
+.container4 {
+    background-image: url("../public/background/wppcolor4.png");
+}
 .container5 {
     background-image: url("../public/background/wppcolor5.png");
 }
 .container6 {
     background-image: url("../public/background/wppcolor6.png");
 }
-.container7{background-image: url("../public/background/wppcolor7.png");}
-.container8{background-image: url("../public/background/wppcolor8.png");}
+.container7 {
+    background-image: url("../public/background/wppcolor7.png");
+}
+.container8 {
+    background-image: url("../public/background/wppcolor8.png");
+}
 
 // CAPAS DOS LIVROS BACKGROUND
 
@@ -225,7 +231,7 @@
     background-color: #eb3038;
 }
 .bgLivrosete {
-    background-color: #276A7C;
+    background-color: #276a7c;
 }
 .colorLivrosete {
     color: #e97d1f !important;
@@ -276,13 +282,22 @@
     background-color: #081a47a2;
 }
 .sipnose5 {
-    background-color: #233d1582;
+    background-image: url("../public/sipnose/degraca-img.jpeg");
+    background-size: cover;
+    background-position-y: 0vh;
+    background-repeat: no-repeat;
 }
 .sipnose6 {
-    background-color: #5c1b1b82;
+    background-image: url("../public/sipnose/punheta-img.jpeg");
+    background-size: cover;
+    background-position-y: 0vh;
+    background-repeat: no-repeat;
 }
 .sipnose7 {
-    background-color: #e97d1f81;
+    background-image: url("../public/sipnose/punheta-img.jpeg");
+    background-size: cover;
+    background-position-y: 0vh;
+    background-repeat: no-repeat;
 }
 .sipnose8 {
     background-image: url("../public/sipnose/punheta-img.jpeg");

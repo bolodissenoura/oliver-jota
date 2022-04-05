@@ -4,10 +4,10 @@ import styles from '../styles/livrosection.module.scss'
 
 export default function UniversidadeInternet() {
     return (
-        <div className={styles.container2}>
+        <div className={styles.container4}>
             <div className="row mt-5">
                 <div className="col-md-4">
-                    <div className={`${styles.sipnose} ${styles.sipnose2}`}>
+                    <div className={`${styles.sipnose} ${styles.sipnose4}`}>
                         <div className={styles.img}>
                             <Image
                                 src="/capas/t4.png"
@@ -68,7 +68,7 @@ export default function UniversidadeInternet() {
                     </div>
                     <div className="col-md-8">
                         <h2 className={`${styles.colorLivroquatro}`}>
-                            Meu livro preferido. O qual chorei quando escrevi e choro quando leio. Desafio você a ler e não chorar.
+                            Nos dias de hoje é comum escolher entre ter um diploma e um bom emprego, ou ter a possibilidade de se tornar rico cedo. 
                         </h2>
                     </div>
                 </div>
