@@ -7,7 +7,7 @@ export default function AprendaSerRico() {
         <div className={styles.container2}>
             <div className="row mt-5">
                 <div className="col-md-4">
-                    <div className={`${styles.sipnoseImg} ${styles.sipnose2}`}>
+                    <div className={`${styles.sipnoseImg} ${styles.sipnose3}`}>
                         
                     </div>
                 </div>

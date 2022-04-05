@@ -276,7 +276,10 @@
     background-repeat: no-repeat;
 }
 .sipnose3 {
-    background-color: #081a47a2;
+    background-image: url("../public/sipnose/rico-sipnose.jpeg");
+    background-size: cover;
+    background-position-x: -5vh;
+    background-repeat: no-repeat;
 }
 .sipnose4 {
     background-color: #081a47a2;
@@ -294,15 +297,15 @@
     background-repeat: no-repeat;
 }
 .sipnose7 {
-    background-image: url("../public/sipnose/punheta-img.jpeg");
+    background-image: url("../public/sipnose/espiritual-sipnose.jpeg");
     background-size: cover;
-    background-position-y: 0vh;
+    background-position-y: -8vh;
     background-repeat: no-repeat;
 }
 .sipnose8 {
-    background-image: url("../public/sipnose/punheta-img.jpeg");
+    background-image: url("../public/sipnose/parabolas-sipnose.jpeg");
     background-size: cover;
-    background-position-y: -5vh;
+    background-position-x: -12vh;
     background-repeat: no-repeat;
 }
 
@@ -332,6 +335,67 @@
     background-size: cover;
     background-position-y: -5vh;
     background-repeat: no-repeat;
+}
+
+.button50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button50:focus {
+    text-decoration: none;
+}
+
+.button50:hover {
+    text-decoration: none;
+}
+.button50:focus {
+    text-decoration: none;
+    background-color: rgb(19, 79, 23);
+}
+
+.button50:active {
+    box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+    outline: 0;
+    
+    
+}
+
+.button50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+    background-color: rgb(0, 255, 17);
+}
+.inputPix{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .button50 {
+        padding: 12px 50px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
