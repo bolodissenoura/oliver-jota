@@ -5,8 +5,9 @@ import IconsSection from "./IconsSection";
 import MeusLivros from "./MeusLivros";
 import Caricatura from "./Caricatura";
 import SobreOliver from "./SobreOliver";
+import Selo from "./Selo";
 
 
 
 
-export { GoldenWave, Coin, Oliver, IconsSection, MeusLivros, Caricatura, SobreOliver };
+export { GoldenWave, Coin, Oliver, IconsSection, MeusLivros, Caricatura, SobreOliver, Selo };

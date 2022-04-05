@@ -1,4 +1,4 @@
-import { GoldenWave, Coin, Oliver, MeusLivros } from '../components/index'
+import { GoldenWave, Selo, Caricatura, MeusLivros } from '../components/index'
 import styles from '../styles/Home.module.scss'
 
 export default function Livros() {
@@ -7,12 +7,12 @@ export default function Livros() {
       <div className="row">
         <div className="col-md-4">
           <GoldenWave />
-          <Coin />
+          <Selo />
         </div>
-        <div className="col-md-2">
-          <Oliver />
+        <div className="col-md-1">
+          <Caricatura />
         </div>
-        <div className="col-md-6 mt-icons">
+        <div className="col-md-6">
           <MeusLivros />
         </div>
       </div>

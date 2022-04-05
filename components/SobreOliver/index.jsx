@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import styles from './sobre.module.scss'
 
@@ -14,14 +15,18 @@ export default function SobreOliver() {
                         </p>
                     </div>
                     <div className="col-md-4">
-                        <a>
-                            <div className={styles.buttonPlay}></div>
-                        </a>
+                        <Link href="https://youtu.be/2rg4bDYodmE">
+                            <a target="_blank">
+                                <div className={styles.buttonPlay}></div>
+                            </a>
+                        </Link>
                     </div>
                     <div className="col-md-4">
-                        <a>
-                            <div className={styles.buttonFotos}></div>
-                        </a>
+                        <Link href="/sobre">
+                            <a>
+                                <div className={styles.buttonFotos}></div>
+                            </a>
+                        </Link>
                     </div>
 
                 </div>

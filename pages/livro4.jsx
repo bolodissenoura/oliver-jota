@@ -18,8 +18,7 @@ export default function UniversidadeInternet() {
                         </div>
                         <div className={styles.text}>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam natus repellendus dolore rerum expedita reprehenderit qui sapiente laborum ratione at, vel adipisci dolorum ullam, autem recusandae, ducimus aspernatur perspiciatis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam natus repellendus dolore rerum expedita reprehenderit qui sapiente laborum ratione at, vel adipisci dolorum ullam, autem recusandae, ducimus aspernatur perspiciatis.
+                                Que caminho devemos tomar para construir um futuro próspero e aproveitar mais o nosso tão precioso tempo. Neste livro, vamos colocar diversas maneiras de se aprender uma profissão, pois a internet a cada dia que passa está mudando a vida da maioria das pessoas. Nunca as pessoas tiveram tantas oportunidades para ficarem famosas do dia para noite e alguns até se tornaram milionários. A profissão "PROFESSOR E PROFESSORA jamais irá acabar, pois mesmo com toda tecnologia, alguém ainda estará encarregado de ensinar e mostrar o caminho para quem está começando
                             </p>
                         </div>
                     </div>

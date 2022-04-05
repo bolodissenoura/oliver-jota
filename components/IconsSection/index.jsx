@@ -10,7 +10,7 @@ export default function IconsSection() {
                 <div className="row g-0">
                     <div className="col m-1 m-md-0">
                         <Link href="/sobre">
-                            <a >
+                            <a  >
                                 <Image
                                     src="/icons/jota-oliver.png"
                                     alt="Icone"
@@ -23,7 +23,7 @@ export default function IconsSection() {
                     </div>
                     <div className="col m-1 m-md-0">
                         <Link href="/construindo">
-                            <a >
+                            <a  >
                                 <Image
                                     src="/icons/grupo-livro.png"
                                     alt="Icone"
@@ -36,7 +36,7 @@ export default function IconsSection() {
                     </div>
                     <div className="col m-1 m-md-0">
                         <Link href="/construindo">
-                            <a >
+                            <a  >
                                 <Image
                                     src="/icons/bares.png"
                                     alt="Icone"
@@ -49,7 +49,7 @@ export default function IconsSection() {
                     </div>
                     <div className="col m-1 m-md-0">
                         <Link href="/livros">
-                            <a >
+                            <a  >
                                 <Image
                                     src="/icons/livros.png"
                                     alt="Icone"
@@ -63,8 +63,8 @@ export default function IconsSection() {
                 </div>
                 <div className="row g-0">
                     <div className="col m-1 m-md-0">
-                        <Link href="/construcao">
-                            <a >
+                        <Link href="https://www.youtube.com/watch?v=jY5LHeyTx9s">
+                            <a  >
                                 <Image
                                     src="/icons/cocomambo.png"
                                     alt="Icone"
@@ -77,7 +77,7 @@ export default function IconsSection() {
                     </div>
                     <div className="col m-1 m-md-0">
                         <Link href="/construindo">
-                            <a >
+                            <a  >
                                 <Image
                                     src="/icons/mentorias.png"
                                     alt="Icone"
@@ -89,8 +89,8 @@ export default function IconsSection() {
                         </Link>
                     </div>
                     <div className="col m-1 m-md-0">
-                        <Link href="/construindo">
-                            <a >
+                        <Link href="https://youtu.be/7mu2Flv1ZDA">
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/podcasts.png"
                                     alt="Icone"
@@ -103,7 +103,7 @@ export default function IconsSection() {
                     </div>
                     <div className="col m-1 m-md-0">
                         <Link href="/construindo">
-                            <a >
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/palestras.png"
                                     alt="Icone"
@@ -120,7 +120,7 @@ export default function IconsSection() {
                 <div className="row g-0">
                     <div className="col">
                         <Link href="https://www.instagram.com/jotaoliveroficial/" target="_blank">
-                            <a >
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/insta-logo.png"
                                     alt="Icone"
@@ -135,8 +135,8 @@ export default function IconsSection() {
 
                     </div>
                     <div className="col">
-                        <Link href="">
-                            <a >
+                        <Link href="https://www.tiktok.com/@jotaoliveroficial?lang=pt-BR">
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/tiktok.png"
                                     alt="Icone"
@@ -149,8 +149,8 @@ export default function IconsSection() {
 
                     </div>
                     <div className="col">
-                        <Link href="">
-                            <a >
+                        <Link href="https://s.kw.ai/u/wQpgBwzD">
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/kawai.png"
                                     alt="Icone"
@@ -163,8 +163,8 @@ export default function IconsSection() {
 
                     </div>
                     <div className="col">
-                        <Link href="">
-                            <a >
+                        <Link href="https://www.facebook.com/joseluis.oliver.581">
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/facebook.png"
                                     alt="Icone"
@@ -177,8 +177,8 @@ export default function IconsSection() {
 
                     </div>
                     <div className="col">
-                        <Link href="">
-                            <a >
+                        <Link href="mailto:oliverdecorador@hotmail.com">
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/email.png"
                                     alt="Icone"
@@ -191,8 +191,8 @@ export default function IconsSection() {
 
                     </div>
                     <div className="col">
-                        <Link href="">
-                            <a >
+                        <Link href="https://api.whatsapp.com/send?phone=5521971430135&text=Oi%2Cvim%20pelo%20site%20e%20quero%20mudar%20de%20vida">
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/zap.png"
                                     alt="Icone"
@@ -204,8 +204,8 @@ export default function IconsSection() {
                         <p className={styles.psocial}>Whatsapp</p>
                     </div>
                     <div className="col">
-                        <Link href="">
-                            <a >
+                        <Link href="https://t.me/+qRygcyT4-l01OTAx">
+                            <a target="_blank" >
                                 <Image
                                     src="/icons/telegram.png"
                                     alt="Icone"

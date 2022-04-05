@@ -18,8 +18,7 @@ export default function AtalhosSucesso() {
                         </div>
                         <div className={styles.text}>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam natus repellendus dolore rerum expedita reprehenderit qui sapiente laborum ratione at, vel adipisci dolorum ullam, autem recusandae, ducimus aspernatur perspiciatis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam natus repellendus dolore rerum expedita reprehenderit qui sapiente laborum ratione at, vel adipisci dolorum ullam, autem recusandae, ducimus aspernatur perspiciatis.
+                            A única atividade que vc vai conseguir ganhar dinheiro na vida é a venda. Mesmo o melhor médico, o melhor engenheiro, o melhor advogado ou até mesmo o melhor pastor, se não souber vender seu trabalho ou suas ideias, ele não irá prosperar. Riqueza não tem Nada haver com faculdade ou escola. Isso está ligado diretamente aos nossos sonhos, nossos objetivos.Não existe outra maneira de se conseguir dinheiro que não seja através da compra e da venda. Por tanto, comece a se mexer e aprenda a se vender. Aprenda a vender o seu trabalho ou o seu produto. Isso será a diferença entre você e os outros Realmente somos do tamanho do nosso sonho. Quanto mais alto conseguirmos enxergar, maior será o nosso sucesso.
                             </p>
                         </div>
                     </div>

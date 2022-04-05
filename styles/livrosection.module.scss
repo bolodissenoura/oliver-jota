@@ -34,7 +34,7 @@
     background-image: url("../public/background/wppcolor6.png");
 }
 .container7{background-image: url("../public/background/wppcolor7.png");}
-// .container8{background-image: url("../public/background/wppcolor8.png");}
+.container8{background-image: url("../public/background/wppcolor8.png");}
 
 // CAPAS DOS LIVROS BACKGROUND
 
@@ -187,6 +187,9 @@
 .precol7 {
     background-image: url("../public/livros/livro7/preco.png");
 }
+.precol8 {
+    background-image: url("../public/livros/livro8/preco.png");
+}
 
 .bgLivroum {
     background-color: #f2872e;
@@ -249,6 +252,11 @@
     margin-left: 10vh;
     overflow-y: scroll;
 }
+.sipnoseImg {
+    width: 50vh;
+    height: 80vh;
+    margin-left: 10vh;
+}
 .sipnose1 {
     background-color: #081a47a2;
 }
@@ -269,6 +277,12 @@
 }
 .sipnose7 {
     background-color: #e97d1f81;
+}
+.sipnose8 {
+    background-image: url("../public/sipnose/punheta-img.jpeg");
+    background-size: cover;
+    background-position-y: -5vh;
+    background-repeat: no-repeat;
 }
 
 .img {
@@ -328,6 +342,11 @@
         margin-left: 25px !important;
         height: 80vh;
         overflow-y: scroll;
+    }
+    .sipnoseImg {
+        width: 87%;
+        margin-left: 25px !important;
+        height: 80vh;
     }
 
     .capa {

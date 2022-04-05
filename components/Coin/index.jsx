@@ -7,8 +7,8 @@ export default function Coin() {
     return (
         <>
             <div className={styles.coin}>
-                <Link href="/construindo">
-                    <a >
+                <Link href="/documents/white-paper-free-coin.pdf">
+                    <a target="_blank" rel="nofollow noopener">
                         <Image
                             src="/coin.png"
                             alt="Imagem de uma Moeda"

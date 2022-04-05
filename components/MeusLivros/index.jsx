@@ -8,7 +8,7 @@ export default function MeusLivros() {
         <>
             <div className={styles.mticons}>
                 <div className="row g-0">
-                    <div className="col m-1 ">
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro1">
                             <a>
                                 <Image
@@ -20,7 +20,7 @@ export default function MeusLivros() {
                             </a>
                         </Link>
                     </div>
-                    <div className="col m-1 ">
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro2">
                             <a>
                                 <Image
@@ -32,7 +32,7 @@ export default function MeusLivros() {
                             </a>
                         </Link>
                     </div>
-                    <div className="col m-1 ">
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro3">
                             <a>
                                 <Image
@@ -44,7 +44,7 @@ export default function MeusLivros() {
                             </a>
                         </Link>
                     </div>
-                    <div className="col m-1 ">
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro4">
                             <a>
                                 <Image
@@ -56,9 +56,7 @@ export default function MeusLivros() {
                             </a>
                         </Link>
                     </div>
-                </div>
-                <div className="row g-0">
-                    <div className="col m-1 ">
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro5">
                             <a>
                                 <Image
@@ -70,7 +68,15 @@ export default function MeusLivros() {
                             </a>
                         </Link>
                     </div>
-                    <div className="col m-1 ">
+                </div>
+
+
+
+
+
+                <div className="row g-0">
+                    
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro6">
                             <a>
                                 <Image
@@ -82,7 +88,7 @@ export default function MeusLivros() {
                             </a>
                         </Link>
                     </div>
-                    <div className="col m-1 ">
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro7">
                             <a>
                                 <Image
@@ -94,17 +100,32 @@ export default function MeusLivros() {
                             </a>
                         </Link>
                     </div>
-                    <div className="col m-1 ">
+                    <div className="col m-1 px-2 ">
                         <Link href="/livro8">
                             <a>
                                 <Image
-                                    src="/livros/8l.png"
+                                    src="/livros/9l.png"
                                     alt="Icone"
                                     width={150}
                                     height={200}
                                 />
                             </a>
                         </Link>
+                    </div>
+                    <div className="col m-1 px-2 ">
+                        <Link href="/livro8">
+                            <a>
+                                <Image
+                                    src="/livros/9l.png"
+                                    alt="Icone"
+                                    width={150}
+                                    height={200}
+                                />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="col m-1 px-2 ">
+                        
                     </div>
                 </div>
             </div>
