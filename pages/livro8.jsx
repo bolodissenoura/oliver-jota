@@ -12,27 +12,27 @@ export default function AprendaSerRico() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa1livro7}`}>
+                    <div className={`${styles.capa} ${styles.capa1livro8}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa2livro7}`}>
+                    <div className={`${styles.capa} ${styles.capa2livro8}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa3livro7}`}>
+                    <div className={`${styles.capa} ${styles.capa3livro8}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa4livro7}`}>
+                    <div className={`${styles.capa} ${styles.capa4livro8}`}>
 
                     </div>
                 </div>
                 <div className="col">
-                    <div className={`${styles.capa} ${styles.capa5livro7}`}>
+                    <div className={`${styles.capa} ${styles.capa5livro8}`}>
 
                     </div>
                 </div>
@@ -41,8 +41,8 @@ export default function AprendaSerRico() {
                     <div className={styles.sectionpagamento}>
                         <div className="row">
                             <div className="col-md-6">
-                                <div className={`${styles.precoGeral} ${styles.precol7}`}>
-                                    <div className={`${styles.precoLivro} ${styles.bgLivrosete}`}>
+                                <div className={`${styles.precoGeral} ${styles.precol8}`}>
+                                    <div className={`${styles.precoLivro} ${styles.bgLivroum}`}>
                                         <p>R$65,00</p>
                                     </div>
                                 </div>
@@ -55,9 +55,9 @@ export default function AprendaSerRico() {
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <div className={styles.colorLivrosete}>
+                        <div className={styles.colorLivrooito}>
                             <h2 >
-                                Este livro eu escrevi para provar as pessoas que se somos capazes de enganar 10 trilhões de neurônios em nosso corpo para gozar, somos capazes de qualquer coisa na vida.
+                                Eu consegui ler a Bíblia de capa a capa 3 vezes e pude perceber que seu personagem principal Jesus Cristo falava absolutamente tudo em forma de parábola, pois assim, todos se identificavam com a história simples e etendiam claramente o recado.
                             </h2>
                         </div>
                     </div>

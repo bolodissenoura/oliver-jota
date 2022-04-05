@@ -142,21 +142,21 @@
     background-image: url("../public/livros/livro7/c5.png");
 }
 
-// .capa1livro8 {
-//     background-image: url("../public/livros/livro8/c1.png");
-// }
-// .capa2livro8 {
-//     background-image: url("../public/livros/livro8/c2.png");
-// }
-// .capa3livro8 {
-//     background-image: url("../public/livros/livro8/c3.png");
-// }
-// .capa4livro8 {
-//     background-image: url("../public/livros/livro8/c4.png");
-// }
-// .capa5livro8 {
-//     background-image: url("../public/livros/livro8/c5.png");
-// }
+.capa1livro8 {
+    background-image: url("../public/livros/livro8/c1.png");
+}
+.capa2livro8 {
+    background-image: url("../public/livros/livro8/c2.png");
+}
+.capa3livro8 {
+    background-image: url("../public/livros/livro8/c3.png");
+}
+.capa4livro8 {
+    background-image: url("../public/livros/livro8/c4.png");
+}
+.capa5livro8 {
+    background-image: url("../public/livros/livro8/c5.png");
+}
 
 //PREÇO BKG
 
@@ -230,6 +230,9 @@
 .colorLivrosete {
     color: #e97d1f !important;
 }
+.colorLivrooito {
+    color: #ffffff !important;
+}
 
 .precoLivro {
     width: 100px;
@@ -254,14 +257,17 @@
 }
 .sipnoseImg {
     width: 50vh;
-    height: 80vh;
+    height: 90vh;
     margin-left: 10vh;
 }
 .sipnose1 {
     background-color: #081a47a2;
 }
 .sipnose2 {
-    background-color: #474747a2;
+    background-image: url("../public/sipnose/tempo-img.jpeg");
+    background-size: cover;
+    background-position-y: -5vh;
+    background-repeat: no-repeat;
 }
 .sipnose3 {
     background-color: #081a47a2;

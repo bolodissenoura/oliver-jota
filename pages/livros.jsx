@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.scss'
 
 export default function Livros() {
   return (
-    <div className={styles.container}>
+    <div className={styles.containerLivros}>
       <div className="row">
         <div className="col-md-4">
           <GoldenWave />

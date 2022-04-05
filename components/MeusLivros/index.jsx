@@ -104,7 +104,7 @@ export default function MeusLivros() {
                         <Link href="/livro8">
                             <a>
                                 <Image
-                                    src="/livros/9l.png"
+                                    src="/livros/8l.png"
                                     alt="Icone"
                                     width={150}
                                     height={200}

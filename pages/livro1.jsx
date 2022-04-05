@@ -7,7 +7,7 @@ export default function AtalhosSucesso() {
         <div className={styles.container1}>
             <div className="row mt-5">
                 <div className="col-md-4">
-                    <div className={styles.sipnose}>
+                    <div className={`${styles.sipnose} ${styles.sipnose1}`}>
                         <div className={styles.img}>
                             <Image
                                 src="/capas/t1.png"
@@ -68,7 +68,7 @@ export default function AtalhosSucesso() {
                     </div>
                     <div className="col-md-8">
                         <h2 className={`${styles.colorLivroum} `}>
-                            O livro que conta a história da minha vida. De maneira fácil de entender e te motivar, mostrando com a minha história que tudo é possível !
+                            O livro que conta a história da minha vida. De maneira bem fácil de se entender e te motivar, mostrando que tudo é possível quando se quer de verdade !
                         </h2>
                     </div>
                 </div>
