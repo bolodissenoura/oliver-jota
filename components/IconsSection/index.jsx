@@ -35,7 +35,7 @@ export default function IconsSection() {
                         </Link>
                     </div>
                     <div className="col m-1 m-md-0">
-                        <Link href="/construindo">
+                        <Link href="/bares">
                             <a  >
                                 <Image
                                     src="/icons/bares.png"
@@ -76,7 +76,7 @@ export default function IconsSection() {
                         </Link>
                     </div>
                     <div className="col m-1 m-md-0">
-                        <Link href="/construindo">
+                        <Link href="/mentoria">
                             <a  >
                                 <Image
                                     src="/icons/mentorias.png"

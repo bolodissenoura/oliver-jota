@@ -1,0 +1,68 @@
+.containerBares {
+  height: 120vh;
+  overflow-x: hidden;
+  background-image: url("../public/background/bkg-bares.png");
+  background-color: #031b2b;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btnPlay {
+  margin-top: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 90%;
+}
+.video {
+  background-image: url("../public/mentoria/btn-play-video.png");
+  height: 110px;
+  width: 110px;
+}
+.historia {
+  background-image: url("../public/mentoria/btn-historia.png");
+  height: 110px;
+  width: 240px;
+}
+.marginBtn {
+  margin-left: 50%;
+}
+
+.btnRow {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 110%;
+  background-color: #41392c;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .containerBares {
+    height: 100vh;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    background-image: url("../public/background/bkg-bares-mobile.png");
+    background-color: #41392c;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .btnPlay {
+    margin-top: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+  }
+  .marginBtn {
+    margin-left: 0px;
+  }
+  .video {
+    margin-left: 10px;
+    height: 110px;
+    width: 110px;
+  }
+  .historia {
+    margin-left: 75px;
+    height: 110px;
+    width: 240px;
+  }
+}
