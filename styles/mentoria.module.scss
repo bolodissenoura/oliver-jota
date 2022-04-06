@@ -1,0 +1,108 @@
+.containerMentoria {
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url("../public/background/wppmentoria.png");
+  background-color: #031b2b;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.firstSection {
+  height: 80vh;
+  margin-top: 60px;
+  width: auto;
+}
+
+.btnPlay {
+  height: 110px;
+  width: 110px;
+  margin-top: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.depoimento{
+  background-image: url("../public/mentoria/btn-play-depoimento.png");
+}
+.entrevista{
+  background-image: url("../public/mentoria/btn-play-entrevista.png");
+}
+
+.btnRow {
+  background-color: #41392c;
+  border-top: red 3px solid;
+  width: 50%;
+  margin-left: auto;
+}
+
+.sectionP {
+  padding-top: 20em;
+  color: yellow;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sectionImg {
+  height: 30em;
+  background-image: url("../public/mentoria/pic1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.sectionP2 {
+  color: yellow;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sectionImg2 {
+  margin-top: 30px;
+  height: 30em;
+  background-image: url("../public/mentoria/pic2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.btnParagrafo {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .containerMentoria {
+    height: auto;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    background-image: url("../public/background/wppmentoria.png");
+    background-color: #031b2b;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .btnParagrafo {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 40px;
+  }
+
+  .sectionP {
+    padding-top: 12em;
+  }
+  .firstSection {
+    margin-top: 30px;
+  }
+
+  .btnRow {
+    background-color: #41392c;
+    width: auto !important;
+  }
+
+  .btnPlay {
+    height: 80px;
+    width: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}

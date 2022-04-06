@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/livrosection.module.scss'
+import { ButtonPix } from '../components'
 
 export default function AprendaSerRico() {
     return (
@@ -51,6 +52,7 @@ export default function AprendaSerRico() {
                                 <div className={styles.pix}>
 
                                 </div>
+                                <ButtonPix/>
                             </div>
                         </div>
                     </div>

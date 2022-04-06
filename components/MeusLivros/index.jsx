@@ -113,7 +113,7 @@ export default function MeusLivros() {
                         </Link>
                     </div>
                     <div className="col m-1 px-2 ">
-                        <Link href="/livro8">
+                        <Link href="/livro9">
                             <a>
                                 <Image
                                     src="/livros/9l.png"

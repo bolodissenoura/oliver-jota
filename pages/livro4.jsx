@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/livrosection.module.scss'
+import { ButtonPix } from '../components'
 
 export default function UniversidadeInternet() {
     return (
@@ -63,6 +64,7 @@ export default function UniversidadeInternet() {
                                 <div className={styles.pix}>
 
                                 </div>
+                                <ButtonPix/>
                             </div>
                         </div>
                     </div>
