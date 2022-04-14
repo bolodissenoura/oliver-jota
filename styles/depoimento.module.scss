@@ -1,9 +1,9 @@
 .containerMentoria {
   height: 100vh;
   overflow-x: hidden;
-  background-image: url("../public/background/bkg-mentoria1.png");
+  background-image: url("../public/background/wppmentoria.png");
   background-color: #000000;
-  background-size: 76%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -20,29 +20,18 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.btnPlayParticipar {
-  height: 110px;
-  width: 260px;
-  margin-top: 10px;
-  margin-left: -100px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.depoimento {
+.depoimento{
   background-image: url("../public/mentoria/btn-play-depoimento.png");
 }
-.entrevista {
-  background-image: url("../public/mentoria/btn-participar.png");
+.entrevista{
+  background-image: url("../public/mentoria/btn-play-entrevista.png");
 }
 
 .btnRow {
   background-color: #41392c;
   border-top: red 3px solid;
-  width: 60%;
+  width: 50%;
   margin-left: auto;
-  position: fixed;
-  right: 0;
-  bottom: 0;
 }
 
 .sectionP {
@@ -82,14 +71,12 @@
 
 @media only screen and (max-width: 700px) {
   .containerMentoria {
-    height: 150vh;
-    font-size: 10px;
+    height: auto;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-    background-image: url("../public/background/bkg-mentoria-mobile.png");
-    background-color: #000000;
+    background-image: url("../public/background/wppmentoria.png");
+    background-color: #031b2b;
     background-size: cover;
-    background-position-y: -10vh;
     background-repeat: no-repeat;
   }
 
@@ -109,19 +96,12 @@
 
   .btnRow {
     background-color: #41392c;
-    width: 105% !important;
+    width: auto !important;
   }
 
   .btnPlay {
     height: 80px;
     width: 80px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-  .btnPlayParticipar {
-    height: 80px;
-    margin-left: 25px;
-    width: 200px;
     background-size: 100%;
     background-repeat: no-repeat;
   }

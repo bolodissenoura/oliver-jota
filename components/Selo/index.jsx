@@ -12,8 +12,8 @@ export default function Selo() {
                         <Image
                             src="/selo.png"
                             alt="Imagem de um selo escrito Jota Oliver"
-                            width={200}
-                            height={150}
+                            width={180}
+                            height={160}
                         />
                     </a>
                 </Link>

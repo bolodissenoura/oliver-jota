@@ -1,0 +1,66 @@
+.box {
+    height: 70vh;
+    overflow-y: scroll;
+    width: 36em;
+    margin-top: 10vh;
+    background-color: rgba(18, 18, 18, 0.461);
+
+    p {
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
+    }
+    h1 {
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+.buttonPlay {
+    width: 95px;
+    height: 84px;
+    background-image: url("../../public/icons/btn-play.png");
+    margin-top: 20px;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.buttonFotos {
+    width: 205px;
+    height: 84px;
+    background-image: url("../../public/icons/btn-fotos.png");
+    margin-top: 20px;
+    background-size: cover;
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+    .box {
+        height: 40vh;
+        overflow-y: scroll;
+        margin-left: 1em;
+        width: 90%;
+        margin-top: 5vh;
+    }
+
+    .buttonPlay {
+        width: 95px;
+        height: 84px;
+        background-image: url("../../public/icons/btn-play.png");
+        background-size: cover;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .buttonFotos {
+        width: 205px;
+        height: 84px;
+        background-image: url("../../public/icons/btn-fotos.png");
+        margin-top: 15px;
+        margin-left: 120px;
+        background-size: cover;
+    }
+}
