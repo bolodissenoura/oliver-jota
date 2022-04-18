@@ -16,7 +16,7 @@ export default function Mentoria() {
       </div>
       <div className={`row justify-content-md-center ${styles.btnRow}`}>
         <div className="col">
-          
+
         </div>
         <div className="col">
           <Link href="/depoimento">
@@ -28,7 +28,7 @@ export default function Mentoria() {
           </Link>
         </div>
         <div className="col">
-          <Link href="">
+          <Link href="/garanta">
             <a >
               <div className={`${styles.btnPlayParticipar} ${styles.entrevista}`}>
               </div>

@@ -1,0 +1,47 @@
+.containerGaranta {
+  height: 120vh;
+  overflow-x: hidden;
+  background-image: url("../public/background/garanta.png");
+  background-color: #0a132a;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btnRow {
+  margin-top: 30vh;
+}
+
+.pix {
+  height: 250px;
+  width: 96%;
+  background-image: url("../public/pix.png");
+  background-size: 60%;
+  background-position-y: 0vh;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 700px) {
+  .containerGaranta {
+    height: 150vh;
+    font-size: 10px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    background-image: url("../public/background/garanta-mobile.png");
+    background-color: #0a132a;
+    background-size: cover;
+    background-position-y: 0vh;
+    background-repeat: no-repeat;
+  }
+
+  .btnRow {
+    margin-left: 15px;
+  }
+
+  .pix {
+    height: 250px;
+    width: 96%;
+    background-image: url("../public/pix.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
