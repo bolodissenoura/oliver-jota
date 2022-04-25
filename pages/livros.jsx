@@ -6,11 +6,9 @@ export default function Livros() {
     <div className={styles.containerLivros}>
       <div className="row">
         <div className="col-md-4">
-          <GoldenWave />
           <Selo />
         </div>
         <div className="col-md-1">
-          <Caricatura />
         </div>
         <div className="col-md-6">
           <MeusLivros />

@@ -13,6 +13,7 @@ export default function Garanta() {
           <div className={styles.pix}>
 
           </div>
+          <h1 className={styles.preco}>APENAS R$999,99</h1>
           <ButtonPix />
         </div>
       </div>

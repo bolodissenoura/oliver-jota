@@ -7,7 +7,7 @@ export default function GoldenWave() {
     <>
       <div className={styles.lateral}>
         <Image
-          src="/background/lateral.png"
+          src="/lateral2.png"
           alt="a"
           width={500}
           height={800}

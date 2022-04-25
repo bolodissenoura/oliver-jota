@@ -1,9 +1,9 @@
 .mticons {
-    
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
     padding-top: 5vh;
-    margin-right: 100px;
-    position: absolute;
-    z-index: 10;
     a {
         text-decoration: none !important;
     }
@@ -23,11 +23,9 @@
 
 @media (max-width: 600px) {
     .mticons {
-        margin-top: 5vh !important;
-        margin-left: 0px;
-        padding: 0px;
-        margin-right: 0px;
-        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
     }
     .psocial {
         font-size: 5px;
